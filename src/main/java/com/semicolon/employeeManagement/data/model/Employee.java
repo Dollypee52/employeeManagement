@@ -14,11 +14,11 @@ public class Employee   {
     private String lastName;
     @Column(name = "email ")
     private String email;
-
+    //default constructor
     public Employee(){
 
     }
-
+    //parameter constructor
     public Employee(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
